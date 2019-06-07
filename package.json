@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "the full stack application",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd backend &&  npm start\" \"cd frontend && npm start\""
+  },
+  "author": "mwangikibui",
+  "license": "ISC"
+}
